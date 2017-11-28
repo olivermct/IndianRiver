@@ -1,6 +1,9 @@
-/*
-
-*/
+/*********************************************************************************/
+/* Oliver McTammany                                                              */
+/* 22 Novermber 2017                                                             */
+/* main javascript for indianriverisles.com                                      */
+/*                                                                               */
+/*********************************************************************************/
 
 var settings = {
 
@@ -42,7 +45,7 @@ var settings = {
 		var	$window = $(window),
 			$this = $(this);
 
-		if (this.length == 0 || intensity === 0)
+		if (this.length == 0 || intensity == 0)
 			return $this;
 
 		if (this.length > 1) {
